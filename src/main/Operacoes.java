@@ -61,7 +61,8 @@ public class Operacoes {
         }//fim de try-catch    
     }//fim do método 
     //Abaixo, menu para que o usuário possa escolha uma das opções
-    public void escolher(){        
+    public void escolher(){
+        System.out.println("Bem vindo ao CalculaSimples v1.0\n");
         try{
             System.out.println("Digite uma das opções abaixo:\n1-Adição;\n2-Subtração;\n3-Multiplicação;\n4-Divisão.");        
                 switch(escolha = sc.nextInt()){
